@@ -1,0 +1,65 @@
+/* 레이아웃 CSS */
+
+/* 최상단 SNS 이미지 */
+.top_wrap{display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #c6c6c6; padding:7px;}
+.top_wrap li{float:left; padding: 3px 20px 3px 0;}
+.top_wrap li::after{content:"|"; margin-left:15px;}
+.top_wrap li:last-child::after{content:"";}
+.top_wrap .mh_top_sns li{display:flex; align-items:center;}
+.top_wrap .mh_top_sns img{width:25px; height:25px;}
+
+@media screen and (max-width:1048px){
+}
+
+@media screen and (max-width:480px){
+.top_wrap .mh_top_time #livetime{font-size:12px;}
+.top_wrap li{float:left; padding: 3px 8px 3px 0;}
+.top_wrap li::after{content:"|"; margin-left:10px;}
+}
+
+/* 공통헤더 로고/메뉴/로그인 */
+.header_wrap{display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #c6c6c6; padding:10px 50px;}
+.header_wrap .mh_logo img{width:100px; height:80px;}
+.header_wrap .mh_content{margin-left:3%;}
+.header_wrap .mh_content li{float:left; padding:15px 40px;}
+.header_wrap .mh_content li.on{color:#c30;font-weight:700;background:#fff;border-bottom:solid 1px #fff;position:relative}
+.header_wrap .mh_login li{float:left; padding-left:20px;}
+.header_wrap .mh_login .mobile_login_menu{display:none;}
+.header_wrap .mh_login .welcome li{margin-top:7px;}
+
+@media screen and (max-width:1400px){
+	.header_wrap .mh_content{display:none;}
+	.header_wrap .mh_login .pc_login_menu{display:none;}
+	.header_wrap .mh_login .mobile_login_menu{display:block;}
+	.header_wrap .mh_login .mobile_login_menu img{width:35px; height:35px;}
+}
+
+@media screen and (max-width:1048px){
+}
+
+@media screen and (max-width:480px){
+}
+
+/* USER 로그인 TABLE */
+.login_table_wrap {width:50%; margin:0 auto; padding-top:50px;}
+.login_table_wrap .login_table {border: 1px #c9c9c9 solid; font-size: .9em; box-shadow: 0 2px 5px rgba(0,0,0,.25); width: 100%; border-collapse: collapse; border-radius: 5px; overflow: hidden;}
+.login_table_wrap .login_table thead {font-weight: bold; color: #fff; background: #666666;}
+.login_table_wrap .login_table td, th {padding: 15px 15px; vertical-align: middle;}
+.login_table_wrap .login_table td {border-bottom: 1px solid #c6c6c6;}
+.login_table_wrap .login_table td:nth-child(odd) {width:15%; text-align:center; border-right:1px solid #c6c6c6;}
+.login_table_wrap .login_wrap{position:relative; width:100%; height:auto;}
+.login_table_wrap .login_btn_wrap {width:50%; text-align:center; margin:0 auto; background-color:#666666; margin-top:20px; box-shadow: 0 2px 5px rgba(0,0,0,.25); border-radius: 5px;}
+.login_table_wrap .login_btn_wrap a{display:block; color:#fff; padding: 15px 0 15px 0;}
+.login_table_wrap .use_btn_wrap{width:50%; text-align:center; margin:0 auto; margin-top:30px;}
+.login_table_wrap .use_btn_wrap .search_btn{box-shadow: 0 2px 5px rgba(0,0,0,.25); background-color:#666666; padding: 15px 63px 15px 63px; border-radius: 5px;}
+.login_table_wrap .use_btn_wrap .search_btn a{color:#fff; height:40px;}
+.login_table_wrap .use_btn_wrap .register_btn{box-shadow: 0 2px 5px rgba(0,0,0,.25); background-color:#666666; padding: 15px 63px 15px 63px; border-radius: 5px;}
+.login_table_wrap .use_btn_wrap .register_btn a{color:#fff;}
+
+/* USER 회원가입 TABLE */
+.register_table_wrap {width:50%; margin:0 auto; padding-top:50px;}
+.register_table_wrap .register_table {border: 1px #c9c9c9 solid; font-size: .9em; box-shadow: 0 2px 5px rgba(0,0,0,.25); width: 100%; border-collapse: collapse; border-radius: 5px; overflow: hidden;}
+.register_table_wrap .register_table thead {font-weight: bold; color: #fff; background: #666666;}
+.register_table_wrap .register_table td, th {padding: 15px 15px; vertical-align: middle;}
+.register_table_wrap .register_table td {border-bottom: 1px solid #c6c6c6;}
+.register_table_wrap .register_table td:nth-child(odd) {width:15%; text-align:center; border-right:1px solid #c6c6c6;}
