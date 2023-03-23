@@ -16,6 +16,7 @@
 <?
 	$userAgent = $_SERVER["HTTP_USER_AGENT"]; 
 	//echo $userAgent;
+	echo "TEST";
 ?>
 <div class="main_wrap">
 	<?
