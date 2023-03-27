@@ -1,5 +1,5 @@
 <div class="register_table_wrap">
-	<form name="login_form" method="post" action="?mode=query">
+	<form name="login_form" method="post" action="?mode=query&action=insert">
 		<table class="register_table">
 			<thead>
 				<tr>
@@ -13,23 +13,23 @@
 				</tr>
 				<tr>
 					<td>비밀번호</td>
-					<td><input type="text" name="password" value="<?=$password?>"></td>
+					<td><input type="text" name="password"></td>
 				</tr>		
 				<tr>
 					<td>이름</td>
-					<td><input type="text" name="user_name" value="<?=$user_name?>"></td>
+					<td><input type="text" name="user_name"></td>
 				</tr>
 				<tr>
 					<td>생년월일</td>
-					<td><input type="text" name="birthday" value="<?=$birthday?>"></td>
+					<td><input type="text" name="birthday"></td>
 				</tr>			
 				<tr>
 					<td>이메일</td>
-					<td><input type="text" name="email" value="<?=$email?>"></td>
+					<td><input type="text" name="email"></td>
 				</tr>
 				<tr>
 					<td>전화번호</td>
-					<td><input type="text" name="user_tel_number" value="<?=$user_tel_number?>"></td>
+					<td><input type="text" name="user_tel_number"></td>
 				</tr>		
 				<tr>
 					<td>성별</td>

@@ -27,7 +27,7 @@
 			$stmt = $conn -> prepare($sql);										// 쿼리를 담은 PDOStatement 객체 생성
 			$stmt -> execute();																// PDOStatement 객체가 가진 쿼리를 실행
 			while($row = $stmt -> fetch(PDO::FETCH_ASSOC)){		// PDOStatement 객체가 실행한 쿼리의 결과값 가져오기
-		
+				
 			$content	= $row["content"];
 			$title		= $row["title"];
 	?>
