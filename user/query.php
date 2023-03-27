@@ -10,15 +10,15 @@
         //──────────────────────────────────────────────────────────────────────────────────────
         case "insert":
             $register_sql = ("INSERT INTO user_info 
-                                        (
-                                         user_id,           password,      user_name,      gender,      email,     
-                                         user_tel_number,   user_grade,    visit_day,      reg_date,    ip
-                                        ) 
-                                        VALUES 
-                                        (
-                                         :user_id,          :password,      :user_name,     :gender,    :email,     
-                                         :user_tel_number,  :user_grade,    :visit_day,     :reg_date,  :ip
-                                        )"
+                                (
+                                 user_id,           password,      user_name,      gender,      email,     
+                                 user_tel_number,   user_grade,    visit_day,      reg_date,    ip
+                                ) 
+                                VALUES 
+                                (
+                                 :user_id,          :password,      :user_name,     :gender,    :email,     
+                                 :user_tel_number,  :user_grade,    :visit_day,     :reg_date,  :ip
+                                )"
                             ); 
             $stmt = $conn -> prepare($register_sql); 
             $stmt -> execute($register_data);

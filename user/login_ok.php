@@ -5,10 +5,10 @@
 	$_SESSION["USER_ID"]				= $user_id;
 	$_SESSION["USER_PW"]				= $password;
 	$_SESSION["USER_NM"]				= $user_name;
-	$_SESSION["USER_EMAIL"]			= $email;	
+	$_SESSION["USER_EMAIL"]				= $email;	
 	$_SESSION["USER_TEL"]				= $user_tel_number;
-	$_SESSION["USER_GRADE"]			= $user_grade;
-	$_SESSION["USER_COUNT"]			= $visit_count;
+	$_SESSION["USER_GRADE"]				= $user_grade;
+	$_SESSION["USER_COUNT"]				= $visit_count;
 	$_SESSION["USER_DAY"]				= $visit_day;
 	$_SESSION["USER_RGT"]				= $reg_date;	
 	$_SESSION["USER_IP"]				= $ip;

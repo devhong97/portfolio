@@ -56,6 +56,7 @@
 .login_table_wrap .use_btn_wrap .register_btn{box-shadow: 0 2px 5px rgba(0,0,0,.25); background-color:#666666; padding: 15px 63px 15px 63px; border-radius: 5px;}
 .login_table_wrap .use_btn_wrap .register_btn a{color:#fff;}
 
+
 /* USER 회원가입 TABLE */
 .register_table_wrap {width:50%; margin:0 auto; padding-top:50px;}
 .register_table_wrap .register_table {border: 1px #c9c9c9 solid; font-size: .9em; box-shadow: 0 2px 5px rgba(0,0,0,.25); width: 100%; border-collapse: collapse; border-radius: 5px; overflow: hidden;}
@@ -63,3 +64,9 @@
 .register_table_wrap .register_table td, th {padding: 15px 15px; vertical-align: middle;}
 .register_table_wrap .register_table td {border-bottom: 1px solid #c6c6c6;}
 .register_table_wrap .register_table td:nth-child(odd) {width:15%; text-align:center; border-right:1px solid #c6c6c6;}
+.register_table_wrap .use_btn_wrap{width:50%; text-align:center; margin:0 auto; margin-top:30px;}
+.register_table_wrap .use_btn_wrap .search_btn{box-shadow: 0 2px 5px rgba(0,0,0,.25); background-color:#666666; padding: 15px 63px 15px 63px; border-radius: 5px;}
+.register_table_wrap .use_btn_wrap .search_btn a{color:#fff; height:40px;}
+.register_table_wrap .use_btn_wrap .register_btn{box-shadow: 0 2px 5px rgba(0,0,0,.25); background-color:#666666; padding: 15px 63px 15px 63px; border-radius: 5px;}
+.register_table_wrap .use_btn_wrap .register_btn a{color:#fff;}
+
