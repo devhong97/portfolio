@@ -20,7 +20,7 @@
 /* 공통헤더 로고/메뉴/로그인 */
 .header_wrap{display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #c6c6c6; padding:10px 50px;}
 .header_wrap .mh_logo img{width:100px; height:80px;}
-.header_wrap .mh_content{margin-left:3%;}
+.header_wrap .mh_content{margin-left:8.5%;}
 .header_wrap .mh_content li{float:left; padding:15px 40px;}
 .header_wrap .mh_content li.on{color:#c30;font-weight:700;background:#fff;border-bottom:solid 1px #fff;position:relative}
 .header_wrap .mh_login li{float:left; padding-left:20px;}
@@ -69,4 +69,3 @@
 .register_table_wrap .use_btn_wrap .search_btn a{color:#fff; height:40px;}
 .register_table_wrap .use_btn_wrap .register_btn{box-shadow: 0 2px 5px rgba(0,0,0,.25); background-color:#666666; padding: 15px 63px 15px 63px; border-radius: 5px;}
 .register_table_wrap .use_btn_wrap .register_btn a{color:#fff;}
-

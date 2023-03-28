@@ -25,17 +25,23 @@
 	<meta property="og:url"					content="<?=$meta_url?>">
 	
 	<!-- Title -->
-	<title>FIX_HEADER</title>
+	<title>YGH</title>
+	<link href="<?=$useUrl?>/resource/img/favicon.ico" rel="shortcut icon">
 
 	<!-- CSS link -->
 	<link href="<?=$useUrl?>/resource/css/reset.css"	rel="stylesheet">
 	<link href="<?=$useUrl?>/resource/css/main.css"		rel="stylesheet">
 	<link href="<?=$useUrl?>/resource/css/layout.css" rel="stylesheet">
 	<link href="<?=$useUrl?>/resource/css/board.css"	rel="stylesheet">
+	<link href="<?=$useUrl?>/resource/css/font.css"		rel="stylesheet">	
 
 	<!-- plugins-->
-	<script type="text/javascript" src="<?=$useUrl?>/plugins/jquery-3.6.3.min.js"></script>
-	<link href="<?=$useUrl?>/plugins/animate.css"	rel="stylesheet">	
+	<script src="<?=$useUrl?>/plugins/jquery-3.6.3.min.js"></script>
+	<link href="<?=$useUrl?>/plugins/animate.css"			rel="stylesheet">
+	
+	<!-- script -->
+	<script src="<?=$useUrl?>/resource/js/main.js"></script>
+		
 </head>
 
 <body>

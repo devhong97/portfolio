@@ -1,0 +1,14 @@
+/* 관리자 페이지 HEADER 영역 */
+#admin-container{width: 100%;}
+#admin-container .admin-top{display:flex; justify-content:space-between; align-items:center; padding:20px;}
+#admin-container .admin-top ul li{float:left; padding: 0 7px;}
+#admin-container .admin-top li p{margin-top:24px;}
+#admin-container .admin-top img{width:80px; height:60px;}
+
+/* 관리자 페이지 SECTION 영역 */
+.box {background-color: #ddd; padding: 20px; display: flex; gap: 20px; min-height: 400px; flex-direction: row;}
+
+.box-sidebar,
+.box-contents {background-color: rgba(0,0,0,0.1); padding: 20px;}
+.box-sidebar {width: 150px; flex-shrink: 0;}
+.box-contents {flex-grow: 1;}
