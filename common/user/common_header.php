@@ -79,4 +79,4 @@ onload=liveTime;
 		<!-- mobile end -->
 	</div><!-- header_wrap end -->
 
-</div><!-- top_wrap end -->
+</div>
