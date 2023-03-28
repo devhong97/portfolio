@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'notosans_1';
+    src: url("../fonts/NotoSansKR/NotoSansKR-Thin.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'notosans_2';
+    src: url("../fonts/NotoSansKR/NotoSansKR-Regular.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'notosans_3';
+    src: url("../fonts/NotoSansKR/NotoSansKR-Medium.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'notosans_4';
+    src: url("../fonts/NotoSansKR/NotoSansKR-Light.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'notosans_5';
+    src: url("../fonts/NotoSansKR/NotoSansKR-Bold.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'notosans_6';
+    src: url("../fonts/NotoSansKR/NotoSansKR-Black.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'escoredream_1';
+    src: url("../fonts/SCDream/SCDream1.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'escoredream_3';
+    src: url("../fonts/SCDream/SCDream3.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'escoredream_5';
+    src: url("../fonts/SCDream/SCDream5.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'escoredream_6';
+    src: url("../fonts/SCDream/SCDream6.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'escoredream_8';
+    src: url("../fonts/SCDream/SCDream8.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
