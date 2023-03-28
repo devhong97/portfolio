@@ -1,48 +1,8 @@
 /* main css */
 
 /* FOOTER 위로가기 버튼 */
-#toTop {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-  }
-  
-  #toTop a {
-    width: 108px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #666666;
-  
-    /* transition */
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-  }
-  .contents{width:50%; margin:0 auto; text-align:justify; line-height:1.4em; }
-  
-  /* SECTION */
-  #wrap {width:100%;}
-  #wrap .section_01{padding:90px;}
-  #wrap .section_01 .layer_01{width:1200px; margin:0 auto; text-align:center; }
-  #wrap .section_02{padding:90px;}
-  #wrap .section_02 .layer_02{width:1200px; margin:0 auto; text-align:center; }
-  #wrap .section_03{padding:90px;}
-  #wrap .section_03 .layer_03{width:1200px; margin:0 auto; text-align:center; }
-
-#toTop a {
-  width: 108px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #666666;
-
-  /* transition */
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s;
-}
-.contents{width:50%; margin:0 auto; text-align:justify; line-height:1.4em; }
+#top-btn {position: fixed; bottom: 30px; right: 20px;}
+#top-btn a {width: 108px; display: block; text-align: center; text-decoration: none; color: #666666; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
 
 /* SECTION */
 #wrap {width:100%;}

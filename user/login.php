@@ -9,11 +9,11 @@
 			<tbody>
 				<tr>
 					<td>아이디</td>
-					<td><input type="text" name="user_id" value="<?=$user_id?>" placeholder="아이디"></td>
+					<td><input type="text" name="user_id" placeholder="아이디"></td>
 				</tr>
 				<tr>
 					<td>비밀번호</td>
-					<td><input type="password" name="password" value="<?=$password?>" placeholder="비밀번호"></td>
+					<td><input type="password" name="password" placeholder="비밀번호"></td>
 				</tr>		
 			</tbody>
 		</table>

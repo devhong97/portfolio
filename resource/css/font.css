@@ -1,3 +1,4 @@
+/* NOTOSANS KR */
 @font-face {
     font-family: 'notosans_1';
     src: url("../fonts/NotoSansKR/NotoSansKR-Thin.otf") format('truetype');
@@ -34,7 +35,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/* ESCORE DREAM */
 @font-face {
     font-family: 'escoredream_1';
     src: url("../fonts/SCDream/SCDream1.otf") format('truetype');
