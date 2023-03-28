@@ -16,30 +16,43 @@
 <?
 	$userAgent = $_SERVER["HTTP_USER_AGENT"]; 
 	//echo $userAgent;
-	echo "TEST";
 ?>
-<div class="main_wrap">
+<div id="wrap">
 	<?
 			//──────────────────────────────────────────────────────────────────────────────────────
 			// board sql
 			//──────────────────────────────────────────────────────────────────────────────────────
-			$sql = "select * from board where ( 1=1 )";
-			$stmt = $conn -> prepare($sql);										// 쿼리를 담은 PDOStatement 객체 생성
-			$stmt -> execute();																// PDOStatement 객체가 가진 쿼리를 실행
-			while($row = $stmt -> fetch(PDO::FETCH_ASSOC)){		// PDOStatement 객체가 실행한 쿼리의 결과값 가져오기
-				
-			$content	= $row["content"];
-			$title		= $row["title"];
+			//$sql = "select * from board where ( 1=1 )";
+			//$stmt = $conn -> prepare($sql);										// 쿼리를 담은 PDOStatement 객체 생성
+			//$stmt -> execute();																// PDOStatement 객체가 가진 쿼리를 실행
+			//while($row = $stmt -> fetch(PDO::FETCH_ASSOC)){		// PDOStatement 객체가 실행한 쿼리의 결과값 가져오기
+			//
+			//$content	= $row["content"];
+			//$title		= $row["title"];
 	?>
-			<section class="section_01">
+			<!-- <section class="section_01">
 				<div class='animate__animated slideRight animate__delay-0.5s'><?=$title?></div>
 				<div class='animate__animated slideRight animate__delay-1s'><?=$content?></div>		
-			</section>
-			
-	<? } ?>
+			</section> -->
+	<section class="section_01">
+		<div class="layer_01"> 
+		글 테스트
+		</div>
+	</section>
+	
+	<section class="section_02">
+		<div class="layer_02">	
+		글 테스트
+		</div>
+	</section>
+	
+	<section class="section_03">
+		<div class="layer_03">	
+		글 테스트
+		</div>
+	</section>	
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <?
 	//──────────────────────────────────────────────────────────────────────────────────────
 	// 공통 푸터/SEO 하단
