@@ -28,9 +28,9 @@ onload=liveTime;
 	</div>
 	<div class="mh_top_sns">
 		<ul>
-			<li><a href=""><img src="<?=$useUrl?>/resource/img/main_github.png"></a></li>
-			<li><a href=""><img src="<?=$useUrl?>/resource/img/main_instagram.png"></a></li>
-			<li><a href=""><img src="<?=$useUrl?>/resource/img/main_facebook.png"></a></li>
+			<li><a href="https://github.com/devhong97" target="_blank"><img src="<?=$useUrl?>/resource/img/main_github.png"></a></li>
+			<li><a href="https://www.instagram.com/str_hs_/" target="_blank"><img src="<?=$useUrl?>/resource/img/main_instagram.png"></a></li>
+			<li><a href="https://www.facebook.com/hongs2a" target="_blank"><img src="<?=$useUrl?>/resource/img/main_facebook.png"></a></li>
 		</ul>
 	</div>
 </div>
@@ -47,7 +47,8 @@ onload=liveTime;
 			<li><a href="<?=$useUrl?>/user/node/?mode=02">SKILLS</a></li>
 			<li><a href="<?=$useUrl?>/user/node/?mode=03">PORTFOLIO</a></li>
 			<li><a href="<?=$useUrl?>/user/node/?mode=04">CONTACT US</a></li>
-			<li><a href="#">BBS</a></li>
+			<li><a href="<?=$useUrl?>/board/index.php">BBS</a></li>
+			<li><a href="<?=$useUrl?>/admin/index.php">관리자페이지(임시)</a></li>			
 		</ul>
 	</div>
 
@@ -56,6 +57,7 @@ onload=liveTime;
 			<? if($MEMBER_ID == "") { ?>
 			<li><a href="<?=$useUrl?>/user/?mode=login">로그인</a></li>
 			<li><a href="<?=$useUrl?>/user/?mode=register">회원가입</a></li>
+			<li><a href="<?=$useUrl?>/user/?mode=search_id">ID/PW 찾기</a></li>			
 			<? } else { ?>
 			<li><a href="<?=$useUrl?>/user/?mode=logout">로그아웃</a></li>
 			<li><a href="<?=$useUrl?>/user/?mode=mypage">내정보</a></li>
