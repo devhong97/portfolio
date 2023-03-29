@@ -14,8 +14,23 @@
 		<a href="<?=$useUrl?>/index.php"><img src="<?=$useUrl?>/resource/img/main_logo.png"></a>
 	</div>
 
-	<div class="header-content">
+	<!-- mobile start -->
+	<div class="menu_btn"><a href="#">
 		<ul>
+			<li><img src="<?=$useUrl?>/resource/img/main_hamburger.png"></li>
+		</ul>
+		</a>
+	</div>
+	<!-- mobile end -->
+
+	<div class="header-content">
+		<div class="close_btn"><a href="#">
+			<ul>
+				<li><img src="<?=$useUrl?>/resource/img/main_exit.png"></li>
+			</ul>
+			</a>
+		</div>		
+		<ul class="content-wrap">
 			<li><a href="<?=$useUrl?>/user/node/?mode=01" class="on">ABOUT ME</a></li>
 			<li><a href="<?=$useUrl?>/user/node/?mode=02">SKILLS</a></li>
 			<li><a href="<?=$useUrl?>/user/node/?mode=03">PORTFOLIO</a></li>
@@ -44,12 +59,6 @@
 			</ul>
 		</div>
 		<? } ?>
-		
-		<!-- mobile start -->
-		<ul class="mobile-login-menu">
-			<li><a href=""><img src="<?=$useUrl?>/resource/img/main_hamburger.png"></a></li>
-		</ul>
-		<!-- mobile end -->
 	</div><!-- header_wrap end -->
 
 </div>

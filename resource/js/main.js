@@ -20,3 +20,17 @@ $(document).ready(function(){
       });
     });
   });
+
+
+  /* 모바일 햄버거버튼 active */ 
+  $(document).ready(function(){
+ 
+    $('.menu_btn>a').on('click', function(){
+        $('.header-content').fadeIn();
+    });
+    $('.close_btn > a').on('click', function(){
+        $('.header-content').hide(); 
+    });
+ 
+});
+ 
