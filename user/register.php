@@ -39,11 +39,9 @@
 				</tr>						
 			</tbody>
 		</table>
-		<div class="register_wrap">
-			<div class="use_btn_wrap">
-				<span class="search_btn"><a href="javascript:;" onclick= "register_check();">확인</a></span>
-				<span class="register_btn"><a href="<?=$useUrl?>">취소</a></span>
-			</div><!-- use_btn_wrap end -->
+		<div class="register-wrap">
+			<div class="search-btn"><a href="javascript:;" onclick= "register_check();">확인</a></div>
+			<div class="register-btn"><a href="<?=$useUrl?>">취소</a></div>
 		</div><!-- register_wrap end -->
 	</form>
 </div><!-- register_table_wrap end -->

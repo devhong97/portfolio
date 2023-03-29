@@ -17,15 +17,15 @@
 				</tr>		
 			</tbody>
 		</table>
-		<div class="login_wrap">
-			<div class="login_btn_wrap">
-				<a href="javascript:;" onclick= "login_check();">로그인</a>
-			</div><!-- login_btn_wrap end -->
-			<div class="use_btn_wrap">
-				<span class="search_btn"><a href="#">아이디/비밀번호 찾기</a></span>
-				<span class="register_btn"><a href="">회원가입</a></span>
-			</div><!-- use_btn_wrap end -->
-		</div><!-- login_wrap end -->
+		<div class="btn-box">
+			<div class="login-btn-wrap">
+				<div class="login-btn"><a href="javascript:;" onclick= "login_check();">로그인</a></div>
+			</div><!-- login-btn-wrap end -->
+			<div class="search-btn-wrap">
+				<div class="search-btn"><a href="#">아이디/비밀번호 찾기</a></div>
+				<div class="register-btn"><a href="">회원가입</a></div>
+			</div><!-- search-btn-wrap end -->
+		</div>
 	</form>
 </div><!-- login_table_wrap end -->
 

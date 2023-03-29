@@ -1,32 +1,5 @@
-<script> 
-//〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
-// 현재시간
-//〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
-function liveTime() {
-   today			= new Date();
-   tdy				= today.getDate();
-   hours			= today.getHours();
-   minutes		= today.getMinutes();
-   seconds		= today.getSeconds();
-
-   if(hours<0){
-      tdy-=1;
-      hours+=24;
-   }
-   livetime.innerHTML = "[ 현재시간: " + ("00"+ hours).slice(-2) + "시 " + ("00"+ minutes).slice(-2) + "분 " + ("00"+ seconds).slice(-2) + "초 ]";
-   setTimeout("liveTime()", 1000);
-}
-onload=liveTime;
-//〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
-</script>
-
-<div class="top_wrap">
-	<div class="mh_top_time">
-		<ul>
-			<li><span id="livetime"></span></li>
-		</ul>
-	</div>
-	<div class="mh_top_sns">
+<div class="top-wrap">
+	<div class="top-sns">
 		<ul>
 			<li><a href="https://github.com/devhong97" target="_blank"><img src="<?=$useUrl?>/resource/img/main_github.png"></a></li>
 			<li><a href="https://www.instagram.com/str_hs_/" target="_blank"><img src="<?=$useUrl?>/resource/img/main_instagram.png"></a></li>
@@ -35,13 +8,13 @@ onload=liveTime;
 	</div>
 </div>
 
-<div class="header_wrap">
+<div class="header-wrap">
 
-	<div class="mh_logo">
+	<div class="header-logo">
 		<a href="<?=$useUrl?>/index.php"><img src="<?=$useUrl?>/resource/img/main_logo.png"></a>
 	</div>
 
-	<div class="mh_content">
+	<div class="header-content">
 		<ul>
 			<li><a href="<?=$useUrl?>/user/node/?mode=01" class="on">ABOUT ME</a></li>
 			<li><a href="<?=$useUrl?>/user/node/?mode=02">SKILLS</a></li>
@@ -52,8 +25,8 @@ onload=liveTime;
 		</ul>
 	</div>
 
-	<div class="mh_login">
-		<ul class="pc_login_menu">
+	<div class="header-login">
+		<ul class="pc-login-menu">
 			<? if($MEMBER_ID == "") { ?>
 			<li><a href="<?=$useUrl?>/user/?mode=login">로그인</a></li>
 			<li><a href="<?=$useUrl?>/user/?mode=register">회원가입</a></li>
@@ -73,7 +46,7 @@ onload=liveTime;
 		<? } ?>
 		
 		<!-- mobile start -->
-		<ul class="mobile_login_menu">
+		<ul class="mobile-login-menu">
 			<li><a href=""><img src="<?=$useUrl?>/resource/img/main_hamburger.png"></a></li>
 		</ul>
 		<!-- mobile end -->
