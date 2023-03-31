@@ -17,6 +17,11 @@
 	$userAgent = $_SERVER["HTTP_USER_AGENT"]; 
 	//echo $userAgent;
 ?>
+
+<div class="progress-container">
+	<div class="progress-bar" id="myBar"></div>
+</div>
+
 <div id="wrap">
 	<?
 			//──────────────────────────────────────────────────────────────────────────────────────
@@ -36,23 +41,69 @@
 			</section> -->
 	<section class="section_01">
 		<div class="layer_01"> 
-		글 테스트
+			<div>
+				<a href=""><img src="">ABOUT ME</a>
+			</div>
+			<div>
+				<a href=""><img src="">1</a>
+			</div>		
+			<div>
+				<a href=""><img src="">2</a>
+			</div>					
 		</div>
 	</section>
 	
 	<section class="section_02">
 		<div class="layer_02">	
-		글 테스트
+		<div>
+				<a href=""><img src="">SKILLS</a>
+			</div>
+			<div>
+				<a href=""><img src="">3</a>
+			</div>		
+			<div>
+				<a href=""><img src="">4</a>
+			</div>	
 		</div>
 	</section>
 	
 	<section class="section_03">
 		<div class="layer_03">	
-		글 테스트
+		<div>
+				<a href=""><img src="">PORTFOLIO</a>
+			</div>
+			<div>
+				<a href=""><img src="">5</a>
+			</div>		
+			<div>
+				<a href=""><img src="">6</a>
+			</div>	
 		</div>
 	</section>	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br>
+	
+	<section class="section_04">
+		<div class="layer_04">	
+			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fd979ab44b2991b9640b74433fa30086"></script>
+			<div id="map"></div>
+				<script src="<?=$useUrl?>/resource/js/kakao_map.js"></script>
+			<div id="mail">
+				<form method="post" action="mail.php">
+				  <label for="name">보내는사람</label>
+					<input type="text" id="name" name="name" /><br />
+					<label for="mail_add">메일주소</label>
+					<input type="text" id="mail_add" name="mail_add" /><br />
+					<label for="messege">내용</label>
+					<textarea  id="message" name="message" /></textarea><br />
+					<input type="submit" value="전송" name="submit" /><!--action="mail.php" mail.php를 동작시키라는 버튼-->
+				</form>
+			</div>				
+			<div id="contact">
+				<p>1</p>
+				<p>2</p>
+				<p>3</p>			
+			</div>
+		</div><!-- layer_04 end -->
+	</section>
 </div>
 
 <?

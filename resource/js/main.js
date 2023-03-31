@@ -1,4 +1,6 @@
+////////////////////////////////////////////////////////
 /* 위로가기 버튼 */
+////////////////////////////////////////////////////////
 $(document).ready(function(){
     $("#top-btn").hide();
   
@@ -20,10 +22,34 @@ $(document).ready(function(){
       });
     });
   });
-
-
-  /* 모바일 햄버거버튼 active */ 
-  $(document).ready(function(){
+  ////////////////////////////////////////////////////////
+/* 우측중앙 SNS 버튼 */
+////////////////////////////////////////////////////////
+$(document).ready(function(){
+    $("#top-btn").hide();
+  
+    // 스크롤 시(50px 초과) toTop 나타남  
+    $(function () {
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 50) {
+              $('#top-btn').fadeIn();
+          } else {
+              $('#top-btn').fadeOut();
+          }
+      });
+      // Top_btn a태그 클릭 시 최상단으로(속도 100)
+      $('#top-btn a').click(function () {
+          $('body,html').animate({
+              scrollTop: 0
+          }, 300);
+          return false;
+      });
+    });
+  });
+////////////////////////////////////////////////////////
+/* 모바일 햄버거버튼 active */ 
+////////////////////////////////////////////////////////
+ $(document).ready(function(){
  
     $('.menu_btn>a').on('click', function(){
         $('.header-content').fadeIn();
@@ -33,4 +59,13 @@ $(document).ready(function(){
     });
  
 });
- 
+
+
+window.onscroll = function() {progressbar()};
+
+function progressbar() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}

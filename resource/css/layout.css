@@ -1,5 +1,5 @@
 /* 최상단 SNS 이미지 */
-.top-wrap{display:flex; justify-content:end; align-items:center; border-bottom:1px solid #c6c6c6; padding:7px; background-color:#fff;}
+.top-wrap{display:flex; justify-content:end; align-items:center; border-bottom:1px solid #c6c6c6; padding:7px; background-color:#fff; z-index:999;}
 .top-wrap li{float:left; padding: 3px 10px 3px 10px;}
 .top-wrap li::after{content:"|"; margin-left:15px;}
 .top-wrap li:last-child::after{content:"";}
@@ -7,14 +7,14 @@
 .top-wrap .top-sns img{width:25px; height:25px;}
 
 @media screen and (max-width:480px){
-.top-wrap li{float:left; padding: 3px 8px 3px 0;}
-.top-wrap li::after{content:"|"; margin-left:10px;}
+	.top-wrap li{float:left; padding: 3px 8px 3px 0;}
+	.top-wrap li::after{content:"|"; margin-left:10px;}
 }
 
 /* 공통헤더 로고/메뉴/로그인 */
-.header-wrap{display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #c6c6c6; padding:10px 50px; position:sticky; top:0; background-color:#fff;}
+.header-wrap{display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #c6c6c6; padding:10px 50px; position:sticky; top:0; background-color:#fff; z-index:999;}
 .header-wrap .header-logo img{width:100px; height:80px;}
-.header-wrap .header-content{margin-left:8.5%;}
+.header-wrap .header-content{height:100%; margin-left:8.5%;}
 .header-wrap .header-content li{float:left; padding:15px 40px;}
 .header-wrap .header-content li.on{color:#c30;font-weight:700;background:#fff;border-bottom:solid 1px #fff;position:relative}
 .header-wrap .header-login li{float:left; padding-left:20px;}
@@ -27,42 +27,13 @@
 	.header-wrap .close_btn img{width:35px; height:35px;}
 	.header-wrap .menu_btn{position:absolute; right:20px; display:block;}
 	.header-wrap .menu_btn img{width:35px; height:35px;}	
-	.header-content{
-		display: none;
-	}
-	.header-content{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 900px;
-		background:rgba(0,0,0,0.7)}
-	.content-wrap{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin: -82px 0 0 -35px;
-	}
-	.content-wrap li{
-		padding:10px;
-		list-style: none;
-	}
-	.content-wrap a{
-		display: inline-block;
-		color: #fff;
-		text-decoration: none;
-	 
-	}
-	.close_btn{
-		text-align: right;
-	}
-	.close_btn a{
-		display: inline-block;
-		color: #fff;
-		margin: 10px;
-	}
-	
-	
+	.header-content{display: none;}
+	.header-content{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background:rgba(0,0,0,0.7)}
+	.content-wrap{position: absolute; top: 50%; left: 50%; margin: -82px 0 0 -35px;}
+	.content-wrap li{padding:10px; list-style: none;}
+	.content-wrap a{display: inline-block; color: #fff; text-decoration: none;}
+	.close_btn{text-align: right;}
+	.close_btn a{display: inline-block; color: #fff; margin: 10px;}	
 }
 
 @media screen and (max-width:1048px){
@@ -98,3 +69,7 @@
 @media screen and (max-width:768px){
 	.register_table_wrap {width:90%; margin:0 auto; padding-top:50px;}
 }
+
+
+/* footer */
+.footer{padding-top:200px;}
